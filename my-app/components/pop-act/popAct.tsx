@@ -35,7 +35,7 @@ export default function PopActivites() {
               Explore Real Adventure
             </h1>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-6'> 
               {cardsData.map((each) => (
                 <Cards
                   key={each.id}
@@ -204,7 +204,7 @@ export default function PopActivites() {
                 <h2 className='font-semibold text-md mt-2'>
                   Make it a beautiful life <br /> for you and your loved ones
                 </h2>
-                <Link href='/details'>
+                <Link href='/tour'>
                   {' '}
                   <button className='mt-3 text-sm bg-white rounded-2xl px-4 py-1 font-medium border hover:bg-green-600 hover:text-white transition'>
                     Read more
@@ -232,7 +232,7 @@ export default function PopActivites() {
                 <h2 className='font-semibold text-md mt-2'>
                   Explore the mountains <br /> and find peace in nature
                 </h2>
-                <Link href='/details'>
+                <Link href='/tour'>
                   {' '}
                   <button className='mt-3 text-sm bg-white rounded-2xl px-4 py-1 font-medium border hover:bg-green-600 hover:text-white transition'>
                     Read more

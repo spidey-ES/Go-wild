@@ -14,7 +14,8 @@ export default async function Contact() {
     setTimeout(() => {
       resolve('3000');
     }, 3000);
-  });
+  }); 
+  
 
   const cardsData: DataofCards[] = [
     {
@@ -27,8 +28,8 @@ export default async function Contact() {
       id: 2,
       img: '/Mail.png',
       title: 'Mail',
-      about: 'bengalurutechhub@gmail.com',
-    },
+      about: 'gowild@gmail.com',
+    }, 
     {
       id: 3,
       img: '/call.png',

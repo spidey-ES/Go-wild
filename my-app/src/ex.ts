@@ -10,24 +10,14 @@ const list = [
   { success: false, value: 'I' },
 ];
 // const list1 = [];
-const filterList = list.filter((each) => 
-  each.success === true
-)
-const vals = filterList.map((each)=>{
-    return( 
-        each.value
-        
-    )
-}) 
-function retrieveValue(obj,text){
-    
-    return  
-           obj.text
-
-
-
-    
+const filterList = list.filter((each) => each.success === true);
+const vals = filterList.map((each) => {
+  return each.value;
+});
+function retrieveValue(obj: Record<string, unknown>, text: string): unknown {
+  return;
+  obj[text];
 }
-const obj = { a: "Text", b: 5 };
-const val = retrieveValue(obj, "b");
+const obj = { a: 'Text', b: 5 };
+const val = retrieveValue(obj, 'b');
 console.log(val); // 5

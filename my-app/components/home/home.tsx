@@ -28,7 +28,14 @@ export default function Hero() {
                 <button className='flex items-center gap-3 bg-green-600 rounded-2xl px-5 py-2 text-sm sm:text-base font-medium text-white hover:bg-amber-500'>
                   <span>Explore More</span>
                   <span className='inline-flex items-center justify-center w-7 h-7 bg-white rounded-full'>
-                    <Image src='/send.png' alt='send' width={14} height={14} />
+                   
+                      <Image
+                        src='/send.png'
+                        alt='send'
+                        width={14}
+                        height={14}
+                      />
+                   
                   </span>
                 </button>
               </Link>
