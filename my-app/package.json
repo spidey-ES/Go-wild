@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "vercel-build": "npm run build",
+    "postinstall": "node -e \"try{require('child_process').execSync('npm rebuild --update-binary',{stdio:'inherit'})}catch(e){}\""
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -27,7 +29,9 @@
     "react-hot-toast": "^2.6.0",
     "react-spinners": "^0.17.0",
     "remixicon": "^4.6.0",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "sharp": "^0.32.4",
+    "lightningcss-wasm": "^1.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
