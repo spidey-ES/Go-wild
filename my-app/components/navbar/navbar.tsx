@@ -17,10 +17,9 @@ const Navbar = () => {
     try {
       const { data } = await axios.post('/api/auth/logout');
       if (data.success) {
-        toast.success('loggedout successfully');
-
         router.push('/register');
         router.refresh();
+        toast.success('loggedout successfully');
       }
     } catch (error: unknown) {
       const err = error as { response?: { data?: { message?: string } } };

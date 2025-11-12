@@ -46,16 +46,18 @@ const Footer = () => {
             </h1>
           </div>
           <div className='p-3'>
-            <button
-              className='flex items-center justify-center
+            <Link href={'/tour'}>
+              <button
+                className='flex items-center justify-center
                 bg-gray-100 text-black
                 rounded-full shadow-md
                 w-9 h-9 sm:w-10 sm:h-10 md:w-10 md:h-10
                 hover:bg-green-500 hover:text-white 
                 hover:scale-110 transition-all duration-300
                 whitespace-nowrap cursor-pointer'>
-              {`-->`}
-            </button>
+                {`-->`}
+              </button>
+            </Link>
           </div>
         </div>
       </div>
