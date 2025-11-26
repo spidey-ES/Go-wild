@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "vercel-build": "npm run build",
-    "postinstall": "node -e \"try{require('child_process').execSync('npm rebuild --update-binary',{stdio:'inherit'})}catch(e){}\""
+    
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
