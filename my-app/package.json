@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "vercel-build": "npm run build",
-    
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
